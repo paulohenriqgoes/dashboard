@@ -1,0 +1,23 @@
+<template>
+  <div class="flex justify-center w-full animate__animated animate__backInDown">
+    <div class="flex flex-col items-center w-4/5 max-w-6xl my-16">
+      <h1 class="tex-4xl font-black text-center text-gray-800">
+        Alguma duvida?
+      </h1>
+      <p class="text-lg text-center text-gray-800 font-regular">
+        Quer saber melhor como funciona e quais são os preços?
+      </p>
+      <div class="mt-10">
+        <a href="mailto:" class="px-6 py-2 mt-10 font-bold text-white rounded-full bg-brand-main focus:outiline-none">
+          Nos mande um e-mail!
+        </a>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
