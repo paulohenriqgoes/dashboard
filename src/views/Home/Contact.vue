@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center w-full animate__animated animate__backInDown">
+  <div class="flex justify-center w-full">
     <div class="flex flex-col items-center w-4/5 max-w-6xl my-16">
       <h1 class="tex-4xl font-black text-center text-gray-800">
         Alguma duvida?
