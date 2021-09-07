@@ -91,7 +91,7 @@ export default {
         return { ...filter, active: false }
       })
 
-      emit('select')
+      emit('select', type)
     }
 
     return {
