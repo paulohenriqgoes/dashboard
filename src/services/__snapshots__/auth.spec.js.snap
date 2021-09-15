@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthServices should return user on register 1`] = `
+Object {
+  "data": Object {
+    "email": "paulo@paulo.com",
+    "name": "Paulo",
+    "password": "123",
+  },
+  "errors": null,
+}
+`;
