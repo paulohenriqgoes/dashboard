@@ -8,11 +8,13 @@
 
         <div class="flex">
           <button
+            id="cta-create-account"
             @click="() => emit('create-account')"
             class="px-6 py-2 font-bold rounded-full text-white focus:outline-none">
             Crie uma conta
           </button>
           <button
+            id="cta-login"
             @click="() => emit('login')"
             class="px-6 py-2 font-bold bg-white rounded-full text-brand-main focus:outline-none">
             Entrar
@@ -31,7 +33,9 @@
           simples widget na página.
         </p>
         <div>
-          <button class="px-6 py-2 mt-10 font-bold bg-white rounded-full text-brand-main focus:outline-none">
+          <button id="cta-create-account-2"
+            class="px-6 py-2 mt-10 font-bold bg-white rounded-full text-brand-main focus:outline-none"
+            @click="() => emit('create-account')">
             Crie uma conta grátis
           </button>
         </div>
