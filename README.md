@@ -1,4 +1,5 @@
 # dashboard
+Este projeto foi criado, realizando o curso de [Vue.js 3](https://treinamento.vuejsbrasil.org/) da Vue.js Brasil
 
 ## Project setup
 ```
